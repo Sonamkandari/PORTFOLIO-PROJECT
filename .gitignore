@@ -26,6 +26,6 @@ dist-ssr
 _site/
 node_modules/
 .jekyll-cache/
-.sass-cache/
+.sass-cache
 .DS_Store
 
