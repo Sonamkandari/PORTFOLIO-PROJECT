@@ -1,0 +1,110 @@
+/* Container for the social section */
+.social-section {
+  max-width: 1200px;      /* Cap the width for readability and balance */
+  width: 100%;            /* Full width on smaller screens */
+  margin: 0 auto;         /* Center the container horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 60px 20px;
+}
+
+/* Title area with decorative pattern */
+.social-title {
+  position: relative;
+}
+.social-title h1 {
+  padding: 0 30px;
+  font-size: 80px;
+  font-weight: 600;
+}
+.social-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/* Grid layout for social icons */
+.social-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* fluid responsiveness */
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+}
+
+/* Individual social link styling */
+.social-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease;
+}
+.social-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+.social-item span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Hover effect for each item */
+.social-item:hover {
+  transform: scale(1.05);
+}
+
+/* Show More button styling */
+.social-show-more {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: 2px solid #000;
+  border-radius: 50px;
+  padding: 30px 60px;
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: gap 0.6s ease;
+}
+.social-show-more:hover {
+  gap: 30px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .social-section {
+    gap: 50px;
+    padding: 40px 20px;
+  }
+  .social-title h1 {
+    font-size: 50px;
+    padding: 0;
+  }
+  .social-title img {
+    width: 130px;
+    right: -20px;
+  }
+  .social-container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+  }
+  .social-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  .social-show-more {
+    padding: 20px 40px;
+    font-size: 18px;
+    margin: 50px auto;
+  }
+}

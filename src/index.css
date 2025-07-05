@@ -1,0 +1,11 @@
+/* now add the css properties for all the components */
+*{
+  margin :0;
+  padding:0;
+}
+body{
+  height:100vh;
+  background-color: #000000;
+  color: white;
+  font-family:'outfit';
+}

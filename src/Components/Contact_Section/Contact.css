@@ -1,0 +1,186 @@
+/* adding css properties for contact class */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 170px; /* fixed: removed space in '80 px' */
+}
+
+/* Adding css properties for contact title */
+.contact-title {
+  position: relative;
+}
+
+/* Adding css properties for contact title heading */
+.contact-title h1 {
+  padding: 0px 30px;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+/* Adding css properties for contact title img tag */
+.contact-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/* Adding css properties for contact section */
+.Contact-sections {
+  display: flex;
+  gap: 150px;
+}
+
+/* Adding css properties for left section */
+.Contact-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.Contact-left h1 {
+  font-size: 80px;
+  font-weight: 700;
+  background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Contact-left p {
+  max-width: 550px;
+  color: #D8D8D8;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+/* Adding css properties for contact details */
+.Contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #fff; /* fixed: replaced invalid 'c' */
+  font-size: 22px;
+}
+
+/* style individual contact details */
+.Individual-Detail {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Adding css properties for the write side */
+.Contact-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  color: #D8D8D8;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/* css properties for input fields */
+.Contact-right input {
+  border: none;
+  width: 700px;
+  height: 78px;
+  padding-left: 20px;
+  border-radius: 6px;
+  background: #32323c;
+  color: #A0A0A0;
+  font-family: Outfit, sans-serif;
+  font-size: 20px;
+}
+
+/*  */
+.Contact-right textarea {
+  width: 650px;
+  border: none;
+  padding: 25px;
+  border-radius: 6px;
+  background: #32323c;
+  color: #A0A0A0;
+  font-family: Outfit, sans-serif;
+  font-size: 20px;
+}
+
+/* Applying css properties for submit button */
+.Contact-Submit {
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+  font-size: 22px;
+  padding: 20px 60px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  transition: transform 0.3s, border 0.3s;
+}
+
+/* apply hover effect on submit button */
+.Contact-Submit:hover {
+  transform: scale(1.1);
+  border: 4px solid #32323c;
+}
+
+/* making this component responsive */
+@media (max-width: 768px) {
+  .contact {
+    gap: 50px;
+    margin: 50px 70px;
+    align-items: flex-start;
+  }
+
+  .contact-title h1 {
+    padding: 0;
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .contact-title img {
+    width: 130px; /* fixed spacing */
+    margin-right: -20px;
+  }
+  
+  .Contact-sections {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .Contact-left h1 {
+    font-size: 54px;
+  }
+
+  .Contact-left p {
+    font-size: 18px;
+  }
+
+  .Contact-details {
+    gap: 20px;
+  }
+
+  .Contact-details img {
+    width: 25px;
+  }
+
+  .Contact-right label {
+    font-size: 20px;
+  }
+
+  .Contact-right input {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .Contact-right textarea {
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .Contact-Submit {
+    font-size: 20px;
+    padding: 15px 40px;
+  }
+}
