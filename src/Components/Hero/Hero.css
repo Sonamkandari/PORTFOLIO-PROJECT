@@ -46,13 +46,15 @@
 
 }
 /* add css properties for resume download button */
-.hero-resume{
-    padding:25px 70px;
-    border-radius:50px; 
-    border:2px solid #fff;
+.hero-resume {
+    padding: 25px 70px;
+    border-radius: 50px; 
+    border: 2px solid #fff;
     cursor: pointer;
-
+    color: white;
+    text-decoration: none;
 }
+
 
 /* adding hover effect for these buttons */
 .hero-connect:hover{

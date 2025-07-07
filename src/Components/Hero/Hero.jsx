@@ -13,7 +13,16 @@ function Hero() {
         <div className="hero-action">
             {/* here we will create two action buttons */}
             <div className="hero-connect"><AnchorLink className='anchor-link'offset={50}href='#contact'>Connect with me</AnchorLink></div>
-             <div className="hero-resume">Download my resume</div>
+             <a 
+                   className="hero-resume" 
+                     href="/Resume.pdf" 
+                     download 
+                     target="_blank" 
+                     rel="noopener noreferrer"
+                    >
+                        Download my resume
+                    </a>
+
         </div>
     </div>
   )

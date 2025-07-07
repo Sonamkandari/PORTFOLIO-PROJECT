@@ -1,0 +1,128 @@
+\documentclass[a4paper,10pt]{article}
+% -----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\usepackage{color}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{fontawesome5}
+\usepackage[hidelinks]{hyperref}
+\fontfamily{SansSerif}\selectfont
+
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+\pagestyle{empty}
+
+% Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+    \textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+
+% -----------------------------------------------------------
+
+\begin{document}
+
+% HEADER SECTION
+\begin{center}
+    {\Huge \textbf{Sonam Kandari}} \\
+    \vspace{2pt}
+\end{center}    
+
+   \faPhone \ +91-7906226656 \quad
+\faEnvelope \ \href{mailto:sonamkandari2004@gmail.com}{sonamkandari2004@gmail.com} \quad
+\faLinkedin \ \href{http://www.linkedin.com/in/sonam-kandari-3078a1286}{linkedin.com/in/sonam-kandari-3078a1286} \quad
+\faGithub \ \href{https://github.com/Sonamkandari}{github.com/Sonamkandari} \quad
+\faGlobe \ \href{https://sonamkandari.github.io/PORTFOLIO-PROJECT/}{sonamkandari.github.io/PORTFOLIO-PROJECT}
+
+
+\vspace{0.2cm}
+\hrule
+\vspace{0.4cm}
+
+
+\resheading{\textbf{PROFILE SUMMARY}} \\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0.5em}
+\item I am a Computer Science undergraduate with a strong focus on web development, Java programming, and problem-solving. I have experience designing and implementing scalable solutions using Java, SQL, and advanced algorithms. In addition, I am skilled in building responsive and user-friendly web applications using HTML, CSS, and JavaScript. I am eager to apply my skills to real-world projects and contribute to innovative and impactful solutions.
+\end{itemize}
+
+\resheading{\textbf{ACADEMIC DETAILS} }\\[\lsep]
+\\
+%\begin{table}[ht!]
+%\begin{center}
+\indent \rule{6.8in}{0.4pt}\\
+\indent \begin{tabular}{ l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} }
+\noindent \textbf{Year} & \textbf{Degree/Exam} & \textbf{Institute} & \textbf{GPA/Marks(\%)}\\
+July, 2025 - Present & B.TECH in Computer Science & DIT University Dehradun & 8.49/10.0 \ \\
+2022 & 12th,\ C.B.S.E & Shri Ram Krishna Academy & 74.6 \% \\
+
+
+\end{tabular}
+
+\indent \rule{6.8in}{0.4pt}
+%\end{center}
+%\end{table}
+\\
+
+\resheading{\textbf{PROJECTS}} \\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0.5em}
+\item \textbf{Airline Management System | Java }: \\
+This project is a Java-based Swing GUI application for booking flights. It allows users to enter customer details, fetch existing customer data using their Aadhar number, select flight routes, and book flights by saving the reservation details in a database. The interface includes text fields, choice components for source and destination, a calendar for date selection, and buttons to perform fetch and booking operations.It demonstrates the integration of Swing components, event handling, and database connectivity.
+
+\item\textbf{Salesforce Platform Developer I (PD1) Trailmix – SmartBridge VIP 2025} \hfill \textit{Capstone in Progress, Modules Completed July 2025}
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Gained hands-on experience in Apex, SOQL, Lightning Web Components (LWC), Flows, and data security.
+\item Applied concepts in approval processes, user authentication, access governance, and AI integrations.
+\item Currently working on a capstone project to consolidate Salesforce Platform Developer I skills.
+\end{itemize}
+
+
+
+
+\item \textbf{Bank Management System | Java}
+This project creates a simple ATM login interface using Java Swing. The application allows users to enter their card number and PIN , and provides options to sign in, clear the fields, or sign up for a new account.
+
+\end{itemize}
+
+\resheading{\textbf{TECHNICAL SKILLS}} \\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0em}
+\item \textbf{Programming Languages}: Java, HTML, CSS, JavaScript, SQL
+\item \textbf{Developer Tools}: Visual Studio Code, Git/GitHub
+\item \textbf{Concepts}: Operating Systems, DBMS, Data Structures And Algorithms, Cryptography, Computer Networks
+\item \textbf{Lib/Frameworks}:React
+\item \textbf{Databases}: MySQL, MongoDB,SQL
+\end{itemize}
+
+\resheading{\textbf{Certification and Awards}} \\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0em}
+
+\item Introduction to Java: \href{https://www.coursera.org/account/accomplishments/records/WT4DSE4XULL8}{Certificate Link}
+\item Introduction to Java Enterprise Edition (EE): \href{https://www.coursera.org/account/accomplishments/records/ZYH3QZG6A6XW}{Certificate Link}
+\item Command Line Basics in Linux: \href{https://www.coursera.org/account/accomplishments/records/33UDCX8YNQPW}{Certificate Link}
+\item Introduction to Relational Databases (RDBMS): \href{https://www.coursera.org/account/accomplishments/records/4CDWPCCAA7CP}{Certificate Link}
+\item Number Theory and Cryptography: \href{https://www.coursera.org/account/accomplishments/records/PC3EK8XVKOMO}{Certificate Link}
+\item Postman API Fundamentals Student Expert: \href{https://api.badgr.io/public/assertions/chiPCzxYR3eZPxG1TrqL5w}{Certificate Link}
+\item Python (Programming Language) and Creative Problem Solving: \href{https://example.com/python-problem-solving}{Certificate Link}
+\item Python for Data Science, AI Development: \href{https://www.coursera.org/account/accomplishments/records/0BLWQFHIT85F}{Certificate Link}
+
+\end{itemize}
+
+
+\end{document}
