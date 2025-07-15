@@ -51,10 +51,10 @@ function Contact() {
               <img src={mail_icon} alt='' /><p>sonamkandari@gmail.com</p>
             </div>
             <div className="Individual-Detail">
-              <img src={call__icon} alt='' /><p>xxxxxxxxxx</p>
+              <img src={call__icon} alt='' /><p></p>
             </div>
             <div className="Individual-Detail">
-              <img src={location_icon} alt='' /><p>Tunuwala Bangkhala, Raipur, Dehradun</p>
+              <img src={location_icon} alt='' /><p>Tunuwala ,Dehradun</p>
             </div>
           </div>
         </div>

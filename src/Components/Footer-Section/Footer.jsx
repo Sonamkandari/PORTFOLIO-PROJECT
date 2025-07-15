@@ -17,10 +17,8 @@ function Footer() {
                 </div>
                 <div className="footer-top-right">
                     <div className="footer-email-input">
-                        <img src={user_icon} alt=''/>
-                        <input type='emil'placeholder='Enter your Email'/>
+                          
                     </div>
-                    <div className="footer-subscribe">Subscribe</div>
                 </div>
              </div>
              <hr/>
