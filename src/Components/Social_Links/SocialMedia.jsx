@@ -27,11 +27,6 @@ function SocialMedia() {
           </a>
         ))}
       </div>
-
-      <div className="social-show-more">
-        <p>Show More</p>
-        <img src={arrow_icon} alt="show more" />
-      </div>
     </section>
   );
 }

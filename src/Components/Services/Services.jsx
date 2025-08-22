@@ -4,7 +4,7 @@ import './Services.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 // import the service data from assets folder
 import Services_Data from '../../assets/services_data'
-import arrow_icon from '../../assets/arrow_icon.svg'
+// import arrow_icon from '../../assets/arrow_icon.svg'
 
 const Services = () => {
   return (
@@ -21,11 +21,11 @@ const Services = () => {
             <h3>{Service.s_no}</h3>
             <h2>{Service.s_name}</h2>
             <p>{Service.s_desc}</p>
-            <div className="services-readmore">
-              <p>Read More</p>
+            {/* <div className="services-readmore"> */}
+              {/* <p>Read More</p> */}
               {/* add images here */}
-               <img src={arrow_icon}alt=''/>
-            </div>
+               {/* <img src={arrow_icon}alt=''/> */}
+            {/* </div> */}
             </div>
           })}
         </div>

@@ -18,16 +18,16 @@ const mywork_data = [
   },
   {
     w_no: 3,
-    w_name: "Turf Management System",
+    w_name: "Employees Task Management System",
     w_img: project3_img,
-    w_url: "https://github.com/Sonamkandari/Turf-Management-System",
+    w_url: "https://sonamkandari.github.io/Employee_Task_Management_System/",
   },
 
    {
     w_no: 4,
     w_name: "My Portfolio Project",
     w_img: project4_img,
-    w_url: "https://github.com/Sonamkandari/Portfolio-Project2",
+    w_url: "https://sonamkandari.github.io/PORTFOLIO-PROJECT/",
   },
 ];
 

@@ -41,7 +41,7 @@ function About() {
             <hr/>
            <div className="about-achievement">
             <h1>Project completed</h1>
-            <p>Turf Management System</p>
+            <p>Employees Task Management System</p>
             <p>Bank Management System</p>
             <p>Airline  Management System</p>
            </div>
