@@ -17,10 +17,11 @@ function App() {
       <Hero />
       {/* mount the about component in this App.jsx file*/}
       <About />
+       {/* mount the MyWork component in this App.jsx file */}
+      <MyWork />
       {/* mount the Services component in this App.jsx file */}
       <Services />
-      {/* mount the MyWork component in this App.jsx file */}
-      <MyWork />
+     
       {/* mount the socialLinks component here */}
       <SocialMedia/>
       {/* mount the Contact component here */}
